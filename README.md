@@ -1,3 +1,5 @@
+This repository is my code produced during the AWS Amplify React Workshop, followed during React Europe (May 21, 2019). The original workshop repository is https://github.com/dabit3/aws-amplify-workshop-react
+
 # Building Serverless Web Applications with React and AWS Amplify
 
 In this workshop we'll learn how to build cloud-enabled web applications with GraphQL, React, & [AWS Amplify](https://aws-amplify.github.io/).
