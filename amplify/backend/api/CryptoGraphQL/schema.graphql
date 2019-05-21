@@ -4,6 +4,7 @@ type Coin @model {
   name: String!
   symbol: String!
   price: Float!
+  rank: Int
 }
 
 type Note @model @auth(rules: [{allow: owner}]) {

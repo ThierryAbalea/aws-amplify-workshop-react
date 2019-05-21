@@ -8,6 +8,7 @@ export const onCreateCoin = `subscription OnCreateCoin {
     name
     symbol
     price
+    rank
   }
 }
 `;
@@ -18,6 +19,7 @@ export const onUpdateCoin = `subscription OnUpdateCoin {
     name
     symbol
     price
+    rank
   }
 }
 `;
@@ -28,6 +30,7 @@ export const onDeleteCoin = `subscription OnDeleteCoin {
     name
     symbol
     price
+    rank
   }
 }
 `;

@@ -41,5 +41,17 @@
 			"build": true,
 			"dependsOn": []
 		}
+	},
+	"storage": {
+		"workshopstorage": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"analytics": {
+		"amplifyanalytics": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
 	}
 }

@@ -8,6 +8,7 @@ export const getCoin = `query GetCoin($id: ID!) {
     name
     symbol
     price
+    rank
   }
 }
 `;
@@ -23,6 +24,7 @@ export const listCoins = `query ListCoins(
       name
       symbol
       price
+      rank
     }
     nextToken
   }

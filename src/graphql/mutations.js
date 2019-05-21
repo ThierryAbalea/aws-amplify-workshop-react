@@ -8,6 +8,7 @@ export const createCoin = `mutation CreateCoin($input: CreateCoinInput!) {
     name
     symbol
     price
+    rank
   }
 }
 `;
@@ -18,6 +19,7 @@ export const updateCoin = `mutation UpdateCoin($input: UpdateCoinInput!) {
     name
     symbol
     price
+    rank
   }
 }
 `;
@@ -28,6 +30,7 @@ export const deleteCoin = `mutation DeleteCoin($input: DeleteCoinInput!) {
     name
     symbol
     price
+    rank
   }
 }
 `;
