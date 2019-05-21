@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplifyreactapp-dev-20190521093952-authRole",
+            "UnauthRoleArn": "arn:aws:iam::813635605152:role/amplifyreactapp-dev-20190521093952-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::813635605152:role/amplifyreactapp-dev-20190521093952-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplifyreactapp-dev-20190521093952-deployment",
+            "UnauthRoleName": "amplifyreactapp-dev-20190521093952-unauthRole",
+            "StackName": "amplifyreactapp-dev-20190521093952",
+            "StackId": "arn:aws:cloudformation:eu-central-1:813635605152:stack/amplifyreactapp-dev-20190521093952/9f060530-7b9b-11e9-ba24-0aee446e3232"
+        },
+        "categories": {
+            "auth": {
+                "cognito9a045776": {}
+            }
+        }
+    }
+}

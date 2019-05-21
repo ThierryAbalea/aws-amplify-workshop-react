@@ -1,0 +1,13 @@
+type Coin @model {
+  id: ID!
+  clientId: ID
+  name: String!
+  symbol: String!
+  price: Float!
+}
+
+type Note @model @auth(rules: [{allow: owner}]) {
+  id: ID!
+  title: String!
+  description: String
+}
